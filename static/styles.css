@@ -1,6 +1,7 @@
 body {
-    background-color: #FAFDD6;
+    background-color: #ffffcc;
     margin-top: 50px;
+
 }
 
 h1 {
@@ -23,24 +24,27 @@ div, span {
 
     text-align: left;
     font-size: 20px;
-
     text-decoration: None;
+    color: #5cb85c
+
 
 }
 
 .btn {
-    margin: 5px;
+
+    margin: 6px;
 
 }
 
 .not_done {
+
     font-size: 25px;
-    color: red;
+    color: #ff0000;
 
 }
 
 .done {
     font-size: 25px;
-    color: green;
+    color: #5cb85c;
 }
 
