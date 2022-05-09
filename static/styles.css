@@ -1,0 +1,46 @@
+body {
+    background-color: #FAFDD6;
+    margin-top: 50px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+div, span {
+
+}
+.field {
+    text-align: center;
+}
+.list_item {
+    font-size: 30px;
+    text-align: left;
+}
+
+.date_time {
+
+    text-align: left;
+    font-size: 20px;
+
+    text-decoration: None;
+
+}
+
+.btn {
+    margin: 5px;
+
+}
+
+.not_done {
+    font-size: 25px;
+    color: red;
+
+}
+
+.done {
+    font-size: 25px;
+    color: green;
+}
+
