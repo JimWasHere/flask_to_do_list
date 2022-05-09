@@ -25,21 +25,21 @@
         {% for todo in to_do_list %}
         <div class="row">
 
-                <div class="col-sm-2"><a class="date_time">{{ todo.timestamp }}</a></div>
-                <div class="col-sm-1">{{ todo.id }}</div>
-                <div class="col-lg-6"><span class="list_item">  {{ todo.title }}  </span></div>
-              <div class="col-sm-2">
+          <div class="col-sm-2"><a class="date_time">{{ todo.timestamp }}</a></div>
+          <div class="col-sm-1">{{ todo.id }}</div>
+          <div class="col-lg-6"><span class="list_item">  {{ todo.title }}  </span></div>
+          <div class="col-sm-3">
              {% if todo.complete == False %}
-            <span class="not_done">☐</span>
-            <a type="button" class="btn btn-primary" href="/update/{{ todo.id }}">Done</a>
+          <span class="not_done">☐</span>
+          <a type="button" class="btn btn-outline-success" href="/update/{{ todo.id }}">Done</a>
             {% else %}
-            <span class="done">🗹</span>
-            <a type="button" class="btn btn-success" href="/update/{{ todo.id }}">Undo</a>
+          <span class="done">🗹</span>
+          <a type="button" class="btn btn-outline-dark" href="/update/{{ todo.id }}">Undo</a>
 
             {% endif %}
 
-            <a type="button" class="btn btn-danger" href="/delete/{{ todo.id }}">Delete</a>
-                </div>
+          <a type="button" class="btn btn-outline-danger" href="/delete/{{ todo.id }}">Delete</a>
+          </div>
             <hr>
         </div>
         {% endfor %}
