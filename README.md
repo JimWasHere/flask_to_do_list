@@ -1,7 +1,7 @@
 # flask_to_do_list
 Simple to do list Flask app
 
-This is a very simple to do list Flask app. It is written in Python and uses an sqlite database to store to do items.
+This is a very simple to do list Flask app. It is written in Python and uses an sqlite database to store to do items as well as Bootstrap for styling.
 
 Future upgrades will be: 
    * Use a Postgres database 
