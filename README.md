@@ -11,7 +11,7 @@ Future upgrades will be:
    * Keep track of supplies and inventory.
    * Add calander functionality
    * Add text or email reminders of items to be done
-   * Integrate sub-items and allow collaboration on items
+   * Integrate sub-items and allow collaboration on items.
    
 
 ReadMe will be updated as changes progress.
